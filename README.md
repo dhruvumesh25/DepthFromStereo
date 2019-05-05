@@ -44,7 +44,16 @@ Other than Matlab, there are no special requirements.
 ## Running the code ##
 The codes are named as their corresponding matching cost metric. Run the corresponding file by changing the input path of left and right images at the beginning of code.
 ## Results ##
-Here, we list the performance of different matching costs over a few images from middlebury. The performance metric is percentage of good pixel, where a pixel is defined as good if it’s disparity is predicted correctly upto some threshold. These results are listed for threshold value of 20. 
+Solarized dark             |  SSD | 
+:-------------------------:|:-------------------------: |
+<img src="middlebury/Piano-perfect/im0.png?raw=true" width="560" height="225" />| ![Alt text](middlebury/Piano-perfect/ssd.jpg?raw=true) |
+
+SAD | Rank |
+:-------------------------: |  :-------------------------: |
+![Alt text](middlebury/Piano-perfect/sad.jpg?raw=true) | ![Alt text](middlebury/Piano-perfect/rank.jpg?raw=true) |
+
+Here, we list the performance of different matching costs over a few images from middlebury. The performance metric is percentage of good pixel, where a pixel is defined as good if it’s disparity is predicted correctly upto some threshold. These results are listed for threshold value of 20.
+
 | Middlebury Image | SAD   | SSD | Adaptive SSD   | Rank | 
 | :------------- | :----------: | :-----------: | :----------: | ----------: | 
 |  Adirondack | 52.62   | 52    | 70.65 | 73.41 | 

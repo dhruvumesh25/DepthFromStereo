@@ -44,7 +44,7 @@ Other than Matlab, there are no special requirements.
 ## Running the code ##
 The codes are named as their corresponding matching cost metric. Run the corresponding file by changing the input path of left and right images at the beginning of code.
 ## Results ##
-Solarized dark             |  SSD | 
+Piano Left Image            |  SSD | 
 :-------------------------:|:-------------------------: |
 <img src="middlebury/Piano-perfect/im0.png?raw=true" width="560" height="225" />| ![Alt text](middlebury/Piano-perfect/ssd.jpg?raw=true) |
 
